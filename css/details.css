@@ -1,0 +1,146 @@
+.details{
+    width: 998px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: auto;
+}
+.detailcontent{
+    display: inline-block;
+    height: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+article a{
+    color: #1aa3ff;
+    text-decoration: none;
+}
+article a:hover{
+    opacity: .7;
+    filter: Alpha(opacity=0.7);
+}
+.detailcontent{
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+}
+article>header{
+    text-align: center;
+    height: 94px;
+}
+article>header span{
+    padding-left: 15px;
+}
+.articlecontent{
+    text-indent: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+.declare{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#forbid{
+    color: red;
+    font-weight: bold;
+}
+
+aside.prevnext{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 99;
+}
+
+aside.prevnext a{
+    display: inline-block;
+    position: relative;
+    height: 54px;
+    width: 54px;
+    border-radius: 27px;
+    color: #fff;
+    background-color: #1aa3ff;
+    opacity: .7;
+    filter: Alpha(opacity=0.7);
+    text-align: center;
+    font-size: 30px;
+    line-height: 47px;
+}
+aside.prevnext a:hover{
+    opacity: 1;
+    filter: Alpha(opacity=1);
+    text-decoration: none;
+    color: #fff;
+}
+a.prev{
+    left: -135px;
+}
+a.next{
+    left: 1018px;
+}
+.related{
+    background-color: #fff;
+    width: 100%;
+    height: 225px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+}
+.related h4{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.retatedul a{
+    list-style: none;
+    height: auto;
+}
+.retatedul a{
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    text-align: center;
+    color: #1aa3ff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.retatedul a:hover{
+    filter: Alpha(opacity=0.7);
+    opacity: .7;
+}
+.retatedul a:first-child{
+    margin-left: -10px;
+}
+.retatedul a img{
+    display: inline-block;
+    width: 145px;
+    height: 94px;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+.retatedul a img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}/*一个是过渡效果，一个最后结果*/
+
+.retatedul a span{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+

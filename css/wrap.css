@@ -1,0 +1,223 @@
+.wrap{
+    width: 998px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.content,.side{
+    display: inline-block;
+    height: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.content{
+    width: 67%;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.recommend,.db,.frontend,.afterend,.programming,.circle,.devflat,.mobiledev{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 45%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+    height: 218px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    position: relative;
+    min-height: 583px;
+}
+.content-span{
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F7F7F7;
+}
+.afterend .content-span,.db .content-span,.circle .content-span,.devflat .content-span,.hot-tags .content-span{
+    background-color: #1aa3ff;
+}
+.article-list{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+}
+.article-list li{
+    margin-left: -15px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+}
+
+
+.article-list li a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.article-list li a:hover{
+    text-decoration: none;
+    color: #1aa3ff;
+}
+.article-list li span{
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    border-radius:12px;
+    background-color: #3db64c;
+    position: relative;
+    text-align: center;
+}
+a.more-article{
+    display: block;
+    color: #1aa3ff;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -10px;
+    background-color: #f7f7f7;
+    text-decoration: none;
+}
+a.more-article>span{
+    padding-left: 75%;
+}
+
+
+#newAndRand,#first-article{
+    width: 275px;
+    height: 100px;
+    margin-top: 5px;
+    position: relative;
+}
+#newAndRand li img,#first-article img{
+    width: 145px;
+    height: 94px;
+    vertical-align: top;
+    position: relative;
+    -moz-transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -o-transition:all .8s ease-in-out;
+    -ms-transition:all .8s ease-in-out;
+    transition:all .8s ease-in-out;
+}
+#newAndRand li a.atext,#first-article a.atext{
+    display: inline-block;
+    position: relative;
+    top:-5px;
+    height: 94px;
+    width: 120px;
+    line-height: 24px;
+    margin-left: 5px;
+    word-wrap: break-word;
+}
+#newAndRand li a.atext{
+    margin-left: -12px;
+    height: auto;
+    width: 100%;
+}
+
+
+#newAndRand li a.atext:hover{
+    color: #f00;
+}
+#newAndRand li img:hover,#first-article img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.circle,.devflat{
+    margin-bottom: 3%;
+}
+.side{
+    width: 30.5%;
+    margin-left: 2%;
+    border: 1px solid #ccc;
+    position: absolute;
+}
+.new-post,.rand-article,.hot-tags{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+}
+.hot-tags{
+    margin-bottom: 6.6%;
+    position: relative;
+}
+.tag-list{
+    list-style: none;
+    margin-top: 0;
+    position: relative;
+}
+.tag-list a{
+    display: inline-block;
+    margin-top: 10px;
+    height: 30px;
+    width: 54%;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.tag-list a li{
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.tag-list a:nth-child(2n+1){
+    margin-left: -35px;
+}
+.tag-list a:nth-child(2n+2){
+    margin-left: 5px;
+}
+.tag-list a:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    filter:Alpha(opacity=0.7);
+}
+#error404 {
+    height: auto;
+
+}
+#error404 h3{
+    text-align: center;
+}
+
+#error404{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+}
+.randRecError ul{
+    list-style: none;
+}
+.randRecError ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.randRecError ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+

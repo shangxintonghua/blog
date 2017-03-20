@@ -1,0 +1,88 @@
+.mailwrap{
+    width: 998px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.mailcontent{
+    display: inline-block;
+    height: auto;
+    margin-left: 18%;
+    margin-bottom: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #939090;
+    background-color: #fff;
+}
+.mailcontent header{
+    height: 75px;
+}
+.demand{
+    font-size: 18px;
+}
+.demand h3{
+    margin-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #000;
+}
+.demand ol{
+    margin-left: 10px;
+}
+.formul{
+    list-style: none;
+    font-family: "Microsoft YaHei ";
+}
+.formul li{
+    margin-top: 15px;
+    margin-left: -40px;
+}
+.formul label{
+    display: block;
+    margin-left: 40px;
+}
+#title,#link,#author,#contact{
+    border: 0;
+    border: 1px solid #ccc;
+    width: 520px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5px;
+    border-radius: 5px;
+    font-family: "Microsoft YaHei ";
+}
+#title:focus,#link:focus,#author:focus,#contact:focus{
+    box-shadow: 0 0 7px #1aa3ff;
+}
+.formul a{
+    display: inline-block;
+    margin-left: 40px;
+    height: 25px;
+    line-height: 25px;
+}
+#sending{
+    border: 0;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 45%;
+    background-color: #669acc;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+    font-family: "Microsoft YaHei ";
+}
+#sending:hover{
+    opacity: .7;
+    filter: Alpha(opacity=0.7);
+}

@@ -1,0 +1,24 @@
+.msgwrap{
+    width: 998px;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    border: 1px solid #F7F7F7;
+    min-height: 777px;
+    background-color: #fff;
+}
+.msgwrap header{
+    padding-top: 55px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    height: 55px;
+    line-height: 55px;
+}
+.duoshuo{
+    width: 777px;
+    margin: 0 auto;
+    padding: 0;
+
+}

@@ -1,0 +1,215 @@
+body{
+    background-color: #f1f1f1;
+    font-family: "Microsoft YaHei ", sans-serif, SimHei;
+}
+.manage{
+    position: relative;
+}
+header{
+    height: 45px;
+    background-color: #222;
+    margin-top: -15px;
+}
+.headerul{
+    list-style: none;
+    position: relative;
+    margin-left: -40px;
+}
+.headerul>li{
+    display: inline-block;/*这样会参照baseline对齐*/
+    height: 45px;
+    font-size: 18px;
+    width: 135px;
+    line-height: 45px;
+    text-align: center;
+
+}
+.headerul>li>a,.sideul>li>a,#editprofile>li>a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+.headerul>li>a:hover,.sideul>li>a:hover,#editprofile>li>a:hover{
+    color: #0074a2;
+    text-decoration: none;
+    background-color: #333;
+}
+.headerul>li:last-child{
+    float: right;/*脱离文档*/
+}
+#editprofile{
+    list-style: none;
+    background-color: #222;
+    position: absolute;
+    z-index: 1;
+    width: 95px;
+    display: none;
+}
+#editprofile li{
+    width: 135px;
+    height: 45px;
+    font-size: 15px;
+    position: relative;
+    left: -40px;
+}
+.main{
+    position: relative;
+}
+.mainside,.maincontent{
+    display: inline-block;
+    height: 1100px;
+}
+.mainside{
+    width: 150px;
+    background-color: #222;
+    color: #fff;
+}
+.sideul{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 0;
+}
+.sideul>li{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+}
+
+.maincontent{
+    position: absolute;
+    top: 0;
+    left: 175px;
+}
+.postnew{
+    margin-top: 15px;
+}
+.titlediv{
+    margin-top: 15px;
+    font-size: 18px;
+}
+#blogtitle{
+    display: block;
+    width: 700px;
+    height: 40px;
+    font-size: 21px;
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    text-indent: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius:7px;
+    border-radius:7px;
+    outline: none;
+}
+.sourcediv,.slinkdiv{
+    margin-top: 15px;
+}
+.sourcediv>label,.slinkdiv>label{
+    font-size: 18px;
+}
+#source,#slink{
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    text-indent: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius:7px;
+    border-radius: 7px;
+    outline: none;
+}
+#slink{
+    width: 300px;
+}
+.catdiv{
+    margin-top: 15px;
+}
+.catdiv>label{
+    font-size: 18px;
+}
+#blogtcat{
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+#blogtcat>label{
+    padding: 12px;
+    font-size: 15px;
+}
+.tagdiv{
+    margin-top: 15px;
+}
+.tagdiv>label{
+    font-size: 18px;
+}
+#blogtags{
+    border: 0;
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    text-indent: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius:7px;
+    border-radius: 7px;
+    outline: none;
+}
+.contentdiv{
+    margin-top: 25px;
+}
+#blogcontent{
+    margin-left: 75px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius:7px;
+    border-radius: 7px;
+    border: 1px solid #e1e1e1;
+}
+#blogcontent:hover{
+    border: 1px solid #1aa3ff;
+}
+.imgdiv{
+    margin-top: 15px;
+}
+.btncontrol{
+    margin-top: 25px;
+    text-align: center;
+}
+.btncontrol>input{
+    border: 0;
+}
+#publish,#return{
+    display: inline-block;
+    height: 35px;
+    width: 125px;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    color: #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius:7px;
+    border-radius: 7px;
+    outline: none;
+}
+#publish{
+    background-color: #1aa3ff;
+}
+#return{
+    margin-left: 15px;
+    background-color: #dc3c00;
+}
+#publish:hover,#return:hover{
+    opacity: .7;
+    filter: Alpha(opacity=0.7);/* IE8 以及更早的浏览器 */
+}
+
+
+

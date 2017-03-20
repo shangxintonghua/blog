@@ -1,0 +1,58 @@
+body{
+    background-color: #F7F7F7;
+    font-family: "Microsoft YaHei ",SimHei,sans-serif;
+}
+.login{
+    width: 375px;
+    height: auto;
+    background-color: #fff;
+    margin: 7% auto;
+    padding: 0;
+    position: relative;
+}
+.login header{
+    text-align: center;
+    background-color: #F7F7F7;
+}
+#loginerror{
+    display: none;
+}
+#loginform{
+    position: relative;
+}
+#loginform ul{
+    list-style: none;
+}
+#loginform ul li{
+    margin-top: 15px;
+}
+
+#loginform ul li:first-child{
+    line-height: 42px;
+    font-size: 21px;
+}
+#user,#pwd,#loginbtn{
+    height: 42px;
+    font-size: 18px;
+    -ms-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+#user,#pwd{
+    width: 275px;
+    border: 1px solid #e1e1e1;
+    text-indent: 43px;
+    outline: none;/*去掉chrome默认的点击边框颜色*/
+}
+#loginbtn{
+    width: 280px;
+    border: 0;
+    background-color: #dc3c00;
+    margin-bottom: 25px;
+    color: #fff;
+}
+#loginbtn:hover{
+    background-color: #a0340d;
+}
